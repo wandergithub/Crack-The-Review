@@ -1,45 +1,39 @@
 import React, { useState } from "react";
+import { useForm, ValidationError } from '@formspree/react';
 
 function App() {
-  const [name, setName] = useState("");
-  const [h1_Text, setHeading] = useState("");
   const [isMousedOver, setMouseOver] = useState(false);
-
-  function handle_change(event) {
-    setName(event.target.value);
-    // console.log(event.target.value);
-    // console.log(event);
-    // console.log(event.target.type);
-    // console.log(event.target.placeholder);
+  const [state, handleSubmit] = useForm("xlezkwzd");
+  if (state.succeeded) {
+    return <p className="Close-tap">Welcome We'll be adding you to the repo soon. You can close this tap.</p>;
   }
-
+  
   function handleMouseOver() {
     setMouseOver(!isMousedOver);
   }
 
-  function handle_click(event) {
-    setHeading(name);
-    // console.log({ name });
-
-    event.preventDefault();
-  }
-
   return (
     <div className="container">
-      <h1>Hello {h1_Text}! </h1>
-      <h1>Please submit your github account</h1>
-      <form onSubmit={handle_click}>
+      <h1>Please submit your GitHub user! </h1>
+      <form onSubmit={handleSubmit}>
+      <label htmlFor="GHAccount" />
         <input
-          onChange={handle_change}
           type="text"
           placeholder="@username"
-          value={name}
+          id="GHAccount"
+          name="GHAccount"
         />
+        <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
         <button
-          style={{ backgroundColor: isMousedOver ? "Yellow" : "white" }}
+          style={{ backgroundColor: isMousedOver ? "#6cc644" : "white" }}
           type="submit"
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOver}
+          disabled={state.submitting}
         >
           Submit
         </button>
