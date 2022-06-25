@@ -5,7 +5,7 @@ function App() {
   const [isMousedOver, setMouseOver] = useState(false);
   const [state, handleSubmit] = useForm("xlezkwzd");
   if (state.succeeded) {
-    return <p className="Close-tap">Welcome We'll be adding you to the repo soon. You can close this tap.</p>;
+    return <p className="Close-tap">Welcome! We'll be adding you to this repo soon. You can close this tap now.</p>;
   }
   
   function handleMouseOver() {
