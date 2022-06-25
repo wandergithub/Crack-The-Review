@@ -3,11 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<img src="https://img.icons8.com/plasticine/344/nui2.png" alt="Logo" width="80" height="80" style=" transform: rotate(180deg); position:relative; top:30px;"><br>
   <a href="https://github.com/wandergithub/Crack-The-Review/projects/1">
     <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-kanban-work-from-home-flaticons-lineal-color-flat-icons-3.png" alt="Logo" width="80" height="80">
   </a>
-
   <h3 align="center">Crack The Review Process</h3>
 
   <p align="center">
