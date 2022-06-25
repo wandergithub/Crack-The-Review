@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.71df952c.chunk.js",
-    "main.js.map": "/static/js/main.71df952c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ab9eb8a8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ab9eb8a8.js.map",
-    "static/js/2.1d966bc9.chunk.js": "/static/js/2.1d966bc9.chunk.js",
-    "static/js/2.1d966bc9.chunk.js.map": "/static/js/2.1d966bc9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6eb239cc27a4a733983caad732c2239e.js": "/precache-manifest.6eb239cc27a4a733983caad732c2239e.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/Crack-The-Review/static/js/main.71df952c.chunk.js",
+    "main.js.map": "/Crack-The-Review/static/js/main.71df952c.chunk.js.map",
+    "runtime-main.js": "/Crack-The-Review/static/js/runtime-main.3d1aedc6.js",
+    "runtime-main.js.map": "/Crack-The-Review/static/js/runtime-main.3d1aedc6.js.map",
+    "static/js/2.1d966bc9.chunk.js": "/Crack-The-Review/static/js/2.1d966bc9.chunk.js",
+    "static/js/2.1d966bc9.chunk.js.map": "/Crack-The-Review/static/js/2.1d966bc9.chunk.js.map",
+    "index.html": "/Crack-The-Review/index.html",
+    "precache-manifest.534967849e120f1b4454a5bdb464e59c.js": "/Crack-The-Review/precache-manifest.534967849e120f1b4454a5bdb464e59c.js",
+    "service-worker.js": "/Crack-The-Review/service-worker.js"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab9eb8a8.js",
+    "static/js/runtime-main.3d1aedc6.js",
     "static/js/2.1d966bc9.chunk.js",
     "static/js/main.71df952c.chunk.js"
   ]
